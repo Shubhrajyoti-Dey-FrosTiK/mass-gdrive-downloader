@@ -1,19 +1,19 @@
-** Mass GDrive Downloader From CSV for CLI
+## Mass GDrive Downloader From CSV or CLI
 
 This project solves the problem of downloading multiple files from Google Drive.
 
-*** Limitations:
+### Limitations:
 
 Only can download small files (which dont need to be scanned by Google Drive)
 
 It can download only one type of file. (eg. only pdf, only png ...)
 
-** Prerequisites
+## Prerequisites
 
 1. Python
 2. Pip
 
-** Setting Up:
+## Setting Up:
 
 1. Clone the project
 
@@ -29,7 +29,7 @@ Now clear any contents which of the `files` folder if there are any contents fro
 
 Now the project is ready to be used
 
-** Usage
+## Usage
 
 Run
 ```
@@ -43,26 +43,26 @@ You can only download files of any one type of extension.
 
 So for example if you are about to download pdf files then type `pdf` and press `Enter`.
 
-** Types of Input [IMPORTANT]
+## Types of Input [IMPORTANT]
 
 There are 2 types of input which the script accepts.
 
-1. CSV Upload
+### 1. CSV Upload
 
 Just place a CSV file at the root of the project directory with these 2 headers `Name` and `Link`. Note that this is case sensitive.
 
 The script will automatically detect the `csv` and start to download the Link column and give it the `Name` given to it.
 
-Note :
+**Note :**
 There should be at most one CSV file in the project directory
 
-1. CLI Input
+### 1. CLI Input
 
 Suppose you have a Google Sheet with the name of the files and links. So just copy those two columns and paste in the CLI.
 
 The CLI mode will be automatically triggered if the scripts doesn't find a CSV file.
 
-Note: 
+**Note:**
 The input should be in this format
 ```
 <FILENAME> <LINK>
