@@ -19,7 +19,7 @@ It can download only one type of file. (eg. only pdf, only png ...)
 
 2. Go into the project
 ```
-cd gdrive-mass-downloader
+cd mass-gdrive-downloader
 ```
 3. Install all packages
 ```
